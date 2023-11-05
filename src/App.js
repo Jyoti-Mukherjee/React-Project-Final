@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+// import RouterCompo from './Route/RouterCompo';
+import "../src/style.css"
+import NavbarMenu from './Route/NavbarMenu';
+// import Footer from './Route/Footer';
+// import FooterCompo from './Component/FooterCompo';
+import Footer from "../src/Route/Footer"
+// import FooterCompo from './Component/FooterCompo';
 
 function App() {
+  // console.log(<FooterCompo /> )
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {/* <RouterCompo />  */}
+     <p className="the"><span className="text-The">The</span> Siren</p>
+     <NavbarMenu/>
+     <Footer />
+     {/* <FooterCompo /> */}
+    
     </div>
   );
 }
