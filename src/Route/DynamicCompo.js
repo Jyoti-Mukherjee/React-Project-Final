@@ -2,12 +2,13 @@ import React, { useContext } from "react"
 import { Link, useNavigate, useParams } from "react-router-dom"
 import { Store } from "../Component/StoreCompo"
 import man from "../Mask Group 16.png"
-import facebook from "../facebook.png"
 import youtube from "../youtube.png"
 import twitter from "../twitter.jpeg"
 import instagram from "../instagram.jpeg"
 import share from "../share.svg"
 import clap from "../rythm.svg"
+import facebook from "../facebook.png"
+
 function DynamicCompo() {
   const id = useParams().id;
   const [contextData] = useContext(Store);

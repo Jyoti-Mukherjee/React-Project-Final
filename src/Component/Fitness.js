@@ -84,7 +84,7 @@ function Fitness(){
                     }
                 })}
          <h1>Advertisement</h1>
-         <img src="https://tse1.mm.bing.net/th?id=OIP.eg59cwtm7jTvNkS07_JJDgHaKe&pid=Api&P=0&h=180" width={"480"} height={"695"}/>
+         <img src="https://tse1.mm.bing.net/th?id=OIP.eg59cwtm7jTvNkS07_JJDgHaKe&pid=Api&P=0&h=180" width={"350"} height={"695"}/>
         </div>
         </div>
     )

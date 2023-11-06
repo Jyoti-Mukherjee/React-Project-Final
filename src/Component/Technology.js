@@ -81,7 +81,7 @@ function Technology(){
                     }
                 })}
          <h1>Advertisement</h1>
-         <img src="https://tse2.mm.bing.net/th?id=OIP.yI-9PSqHrO57M_T2iFF6SwHaE7&pid=Api&P=0&h=180" width={"450"} height={"775"}/>
+         <img src="https://tse2.mm.bing.net/th?id=OIP.yI-9PSqHrO57M_T2iFF6SwHaE7&pid=Api&P=0&h=180" width={"350"} height={"775"}/>
         </div>
         </div>
     )
